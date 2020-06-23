@@ -17,7 +17,7 @@ export default class QuoteScreen extends React.Component {
      getData = () => {
           this.setState({ isLoading: true, error: null });
           let h = new Headers();
-          h.append('X-TheySaidSo-Api-Secret', 'M1MaKvPSaR1Ns13hlXDqvAeF');
+          h.append('X-TheySaidSo-Api-Secret', 'xxxxxxxxxxxxxxx');
           let req = new Request(this.apiUrl, {
                headers: h,
                method: 'GET',

@@ -6,7 +6,7 @@ export default class PixabayScreen extends React.Component {
 
      screenWidth = Math.round(Dimensions.get('window').width);
      screenHeight = Math.round(Dimensions.get('window').height);
-     ApiUrl = 'https://pixabay.com/api/?key=11999068-334e8043671d15213267678c5&q='
+     ApiUrl = 'https://pixabay.com/api/?key=xxxxxxxxxxxxxxxxxxxxxxxx'
      constructor(props) {
           super(props);
           this.state = {
