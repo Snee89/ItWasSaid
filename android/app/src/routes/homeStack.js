@@ -19,14 +19,14 @@ export function MyStack() {
                          options={{
                               title: 'Your Daily Quote',
                               headerStyle: {
-                                   backgroundColor: 'darkgreen',
+                                   backgroundColor: 'white',
                               },
                               headerTitleStyle: {
                                    fontWeight: 'bold',
                                    fontFamily: 'monospace',
                                    fontStyle: 'italic',
                                    marginLeft: '20%',
-                                   color: 'white'
+                                   color: 'darkgreen'
                               },
 
 
@@ -44,12 +44,13 @@ export function MyStack() {
                                    fontWeight: 'bold',
                                    fontFamily: 'monospace',
                                    fontStyle: 'italic',
-                                   color: 'white'
+                                   color: 'darkgreen'
+
                               },
                               headerStyle: {
-                                   backgroundColor: 'darkgreen',
+                                   backgroundColor: 'white',
                               },
-                              headerTintColor: 'white'
+                              headerTintColor: 'darkgreen'
                          }}
                     />
 
@@ -62,14 +63,14 @@ export function MyStack() {
                                    fontWeight: 'bold',
                                    fontFamily: 'monospace',
                                    fontStyle: 'italic',
-                                   color: 'white',
+                                   color: 'darkgreen',
                                    marginLeft: '15%',
 
                               },
                               headerStyle: {
-                                   backgroundColor: 'darkgreen',
+                                   backgroundColor: 'white',
                               },
-                              headerTintColor: 'white'
+                              headerTintColor: 'darkgreen'
                          }}
                     />
                </Stack.Navigator>

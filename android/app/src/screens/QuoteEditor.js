@@ -231,7 +231,7 @@ export default class QuoteEditor extends React.Component {
                                    padding: 15,
                                    marginTop: '15%',
                                    borderRadius: 25,
-                                   opacity: .9,
+                                   opacity: 1.0,
 
                               }]}
                               >{this.state.quote}

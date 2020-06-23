@@ -58,7 +58,7 @@ export default function CameraComponent2() {
                     <TouchableOpacity>
                          <IconButton
                               icon="image"
-                              color="white"
+                              color="darkgreen"
                               size={40}
                               onPress={() => handleChoosePhoto()}
                          />
@@ -66,7 +66,7 @@ export default function CameraComponent2() {
                     <TouchableOpacity>
                          <IconButton
                               icon="camera"
-                              color="white"
+                              color="darkgreen"
                               size={40}
                               onPress={() => handleCameraPhoto()}
                          />
